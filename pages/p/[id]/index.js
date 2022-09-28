@@ -36,9 +36,9 @@ export default class PlatformHome extends React.Component {
 
               <div className="text-wrap">
                 <div className="text">
-                  <h1>Coffee roasted by hand.️</h1>
+                  <h1>Rent high traffic retail space by the day or week.️</h1>
                   <Link href={'/p/' + this.props.platform.slug + '/products'}>
-                    <a className="btn btn-primary">Shop now</a>
+                    <a className="btn btn-primary">View listings now</a>
                   </Link>
                 </div>
               </div>
@@ -55,15 +55,15 @@ export default class PlatformHome extends React.Component {
             height: 100%;
             width: 100%;
 
-            background: url(/platform_splash.png) no-repeat;
+            background: url(/arrive.png) no-repeat;
             background-size: cover;
             background-position: center center;
           }
 
           h1 {
-            font-size: 70px;
-            font-weight: 600;
-            color: #202020;
+            font-size: 30px;
+            font-weight: 400;
+            color: #8e7cc3;
             width: 100%;
             padding: 0;
             margin: 0 0 30px 0;

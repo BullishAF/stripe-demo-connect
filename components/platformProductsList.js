@@ -59,6 +59,7 @@ export default class PlatformProductsList extends React.Component {
               <>
                 {<img src={item.images} />}
                 <h4>{item.name}</h4>
+                <p>{item.description}</p>
                 <p>{price}</p>
                 <a
                   href="#"
@@ -66,7 +67,7 @@ export default class PlatformProductsList extends React.Component {
                   className="btn btn-primary"
                   onClick={this.buyProduct.bind(this, item)}
                 >
-                  Buy now
+                  Book now
                 </a>
               </>
             )}

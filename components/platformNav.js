@@ -16,8 +16,7 @@ class PlatformNav extends React.Component {
               <Link href={'/p/' + this.props.platform.slug}>
                 <a className="navbar-brand">
                   <div className="brand">
-                    Mission <br /> Coffee <br />
-                    Co.
+                    Snap <br /> Shops <br />
                   </div>
                 </a>
               </Link>
@@ -27,7 +26,7 @@ class PlatformNav extends React.Component {
           <ul className="navbar-nav flex-row">
             <li className="navitem d-flex">
               <Link href={'/p/' + this.props.platform.slug + '/products'}>
-                <a className="btn">Wholesale</a>
+                <a className="btn">Listings</a>
               </Link>
             </li>
 

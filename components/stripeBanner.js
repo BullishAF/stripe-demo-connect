@@ -3,22 +3,15 @@ export default function StripeBanner(props) {
     <div className="annotation">
       <p>
         <img src="/stripe.svg" width="60" />
-        Roastery is a{' '}
+        ©Snapshops partners with{' '}
         <a className="stripe" href="https://stripe.com">
-          Stripe
+        ©Stripe
         </a>{' '}
-        demo that uses{' '}
+        to on-board host locations with{' '}
         <a href="https://stripe.com/connect" target="_blank">
-          Connect
+          stripe connect
         </a>{' '}
-        to power a SaaS platform for coffee roasters.{' '}
-        <a
-          className="github arrow"
-          href="https://github.com/stripe/stripe-demo-connect-roastery-saas-platform"
-          target="_blank"
-        >
-          View on GitHub
-        </a>.
+        for fast and secure payouts.{' '}
       </p>
 
       <style jsx>
@@ -29,11 +22,11 @@ export default function StripeBanner(props) {
             left: 0;
             right: 0;
             padding: 20px;
-            min-height: 50px;
+            min-height: 40px;
 
             background: #fff;
             text-align: center;
-            font-size: 12px;
+            font-size: 16px;
           }
 
           .annotation img,
@@ -49,7 +42,7 @@ export default function StripeBanner(props) {
 
           .annotation a:link,
           .annotation a:visited {
-            color: #a96851;
+            color: #4633FF;
           }
 
           @media (min-width: 820px) {

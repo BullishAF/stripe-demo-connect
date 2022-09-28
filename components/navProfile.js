@@ -52,13 +52,13 @@ class NavProfile extends React.Component {
         <>
           <li className="navitem d-flex">
             <Link href="/signup">
-              <a className="btn">Create account</a>
+              <a className="btn">Create host location account</a>
             </Link>
           </li>
 
           <li className="nav-item">
             <Link href="/login">
-              <a className="btn">Sign in</a>
+              <button className="btn-primary">Sign in</button>
             </Link>
           </li>
         </>

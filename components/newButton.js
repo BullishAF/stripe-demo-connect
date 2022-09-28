@@ -19,9 +19,9 @@ function NewButton(props) {
         href={props.link}
         ref={target}
         target="_blank"
-        className="btn btn-primary btn-new"
+        className="btn btn-secondary btn-new"
       >
-        + {props.label}
+       {props.label}
       </a>
 
       <style jsx>
@@ -43,8 +43,8 @@ function NewButton(props) {
             position: absolute;
             right: 0;
             top: 40px;
-            background: #000;
-            font-size: 17px;
+            background: #fff;
+            font-size: 18px;
             line-height: 23px;
             color: #fff;
             padding: 20px;

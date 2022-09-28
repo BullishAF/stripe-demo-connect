@@ -8,6 +8,14 @@
       "email": "shop@missioncoffee.com",
       "password": "$2b$10$fDU/gKP8pL5LeozB3WBodu/zJodwplgqqAk2xkMYavFGHCcJ0/IEi",
       "avatar": "/mission_coffee_co_profile.png"
+    },
+    {
+      "userId": "nnK2cAB0-",
+      "firstName": "Polly",
+      "lastName": "Ruppe",
+      "email": "ryanpark88.rp@gmail.com",
+      "password": "$2b$10$SAqSpb4iYnv/858FC2is2.G50SGdRXyb5WIxs1RXEOous9CaYRefm",
+      "avatar": "//www.gravatar.com/avatar/2e9098547abedf4d89063312c2b36294?s=400"
     }
   ],
   "platforms": [
@@ -26,6 +34,19 @@
       "stripe": {
         "stripeUserId": "acct_1GvbA9H7EIc3xp2a"
       }
+    },
+    {
+      "platformId": "gmuPK004Aa",
+      "ownerUserId": "nnK2cAB0-",
+      "name": "cloudpop.shop",
+      "slug": "cloudpopshop",
+      "address": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "phone": "",
+      "email": "",
+      "description": ""
     }
   ]
 }

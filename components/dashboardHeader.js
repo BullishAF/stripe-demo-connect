@@ -30,14 +30,15 @@ class DashboardHeader extends Component {
                 </Link>
                 <div className="media-body">
                   <div className="user-details-body align-middle">
-                    <h5 className="mt-0">{platform.name}</h5>
-                    <p className="text-secondary">{profile.email}</p>
+                    <h2 className="mt-0">{platform.name}</h2>
+                    <h5 className="text-secondary">{profile.email}</h5>
                   </div>
                 </div>
               </div>
             )}
           </div>
         </div>
+        <br></br>
         <div className="row">
           <div className="col-lg-3">
             <div className="platform-details">
@@ -54,13 +55,13 @@ class DashboardHeader extends Component {
           <div className="col-lg-5">
             <div className="platform-details">
               <p>
-                <strong>TEL:</strong> {platform.phone}
+                <strong>Phone:</strong> {platform.phone}
               </p>
               <p>
                 <strong>Email:</strong> {platform.email}
               </p>
               <p>
-                <strong>M-F:</strong> 10AM-8PM
+                <strong>Hours:</strong> 10AM-8PM
               </p>
             </div>
           </div>
@@ -68,19 +69,14 @@ class DashboardHeader extends Component {
           <div className="col-lg-4">
             <div className="settings">
               <nav>
-                <a href={'/p/' + platform.slug} target="_blank">
-                  Visit public site
-                </a>{' '}
-                <br />
-                <a
+              <Link
                   href="https://dashboard.stripe.com/test/payments"
-                  target="_blank"
                 >
                   Recent orders
-                </a>{' '}
+                </Link>{' '}
                 <br />
                 <Link href="/dashboard/settings">
-                  <a>Platform settings</a>
+                  Platform settings
                 </Link>
               </nav>
             </div>
@@ -89,7 +85,7 @@ class DashboardHeader extends Component {
 
         <style jsx>{`
           .dashboard-header {
-            font-size: 14px;
+            font-size: 16px;
             line-height: 24px;
             margin-bottom: 80px;
             padding-bottom: 0px;
@@ -97,7 +93,7 @@ class DashboardHeader extends Component {
           }
 
           .bg-overlay {
-            background: #F2F1E7;
+            background: #fff;
 
             position: absolute;
             z-index: -1;
@@ -114,13 +110,13 @@ class DashboardHeader extends Component {
           }
 
           .nav-link {
-            text-align: left;
+            text-align: center;
             box-sizing: border-box;
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 600;
             padding: 0 8px 8px;
             margin-right: 24px;
-            color: #484848;
+            color: #9A6BFE;
             border-radius: 0;
           }
 
@@ -132,7 +128,7 @@ class DashboardHeader extends Component {
             border: #fff;
             border-bottom: 1px solid #fff;
             padding-top: 1px;
-            color: #0055ff;
+            color: #9A6BFE;
           }
           
           .user-details {
@@ -141,8 +137,8 @@ class DashboardHeader extends Component {
           }
 
           .user-details .avatar {
-            height: 60px;
-            width: 60px;
+            height: 40px;
+            width: 40px;
             border-radius: 0;
             object-fit: cover;
             align-self: center;
@@ -180,7 +176,7 @@ class DashboardHeader extends Component {
           .settings nav {
             margin-top: auto;
             align-self: flex-start;
-            text-align: left;
+            text-align: center;
           }
 
           @media (min-width: 992px) { 

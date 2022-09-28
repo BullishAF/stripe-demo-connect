@@ -58,8 +58,8 @@ const Layout = (props) => (
         font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue,
           sans-serif;
         line-height: 1.75em !important;
-        color: #484848 !important;
-        font-size: 16px;
+        color: #000000 !important;
+        font-size: 18px;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
@@ -73,29 +73,22 @@ const Layout = (props) => (
       }
 
       :global(a) {
-        color: #a96851;
+        color: #4633FF;
       }
 
       :global(a:hover) {
-        color: #a96851;
+        color: #5B10FA;
       }
 
       :global(.splash-image) {
         width: 100%;
         height: 100%;
         position: relative;
-        object-fit: cover;
+        object-fit: contain;
         vertical-align: bottom;
         display: flex;
         align-items: center;
-
-        background: linear-gradient(
-            0deg,
-            rgba(255, 255, 255, 0) 20%,
-            #000000 100%
-          ),
-          url(https://images.unsplash.com/photo-1508766917616-d22f3f1eea14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80)
-            no-repeat;
+        no-repeat;
         background-size: cover;
         background-position: center center;
       }
@@ -115,30 +108,29 @@ const Layout = (props) => (
       }
 
       :global(.btn-primary) {
-        background: #facb52;
-        box-shadow: 0px 5px 50px rgba(250, 203, 82, 0.5);
+        background: #6BFEFA;
         color: #000;
       }
 
       :global(.btn-primary:hover) {
-        background: #efac00;
-        color: #000;
+        background: #6BFEFA;
+        color: #fffff;
       }
       :global(.btn-primary:not(:disabled):not(.disabled):active) {
-        background: #efac00;
+        background: #542aff;
         color: #000;
       }
 
       :global(.btn-secondary) {
-        background: #fff;
-        border: 2px solid #efac00;
-        color: #000;
+        background: #5279c8;
+        border: 2px solid #00000;
+        color: #fff;
       }
 
       :global(.btn-secondary:hover) {
-        background: #efac00;
-        border: 2px solid #efac00;
-        color: #fff;
+        background: #5279c8;
+        border: 2px solid #00000;
+        color: #000000;
       }
 
       :global(.btn-half) {
@@ -157,7 +149,7 @@ const Layout = (props) => (
       }
 
       :global(button) {
-        background-color: #0055ff;
+        background-color: #6BFEFA;
         color: white;
         width: 100%;
         height: 44px;
@@ -186,8 +178,8 @@ const Layout = (props) => (
       }
 
       :global(h1) {
-        font-size: 28px;
-        font-weight: 600;
+        font-size: 26px;
+        font-weight: 500;
         color: #202020;
         width: 70%;
         margin-bottom: 8px;
@@ -277,7 +269,7 @@ const Layout = (props) => (
         padding: 5px 10px;
         min-height: 30px;
 
-        background: #ffe946;
+        background: #9A6BFE;
         text-align: center;
         font-size: 12px;
         box-shadow: 0 15px 35px 0 rgba(50, 50, 93, 0.1),
@@ -292,17 +284,13 @@ const Layout = (props) => (
         width: 100%;
         height: 100%;
         position: relative;
-        object-fit: cover;
+        object-fit: contain;
         vertical-align: bottom;
 
-        background: linear-gradient(
-            0deg,
-            rgba(255, 255, 255, 0) 15%,
-            #000000 100%
-          ),
-          url(https://images.unsplash.com/photo-1508766917616-d22f3f1eea14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80)
+        background: #9A6BFE
+          
             no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-position: center center;
       }
 

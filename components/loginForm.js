@@ -130,7 +130,7 @@ export default class LoginForm extends Component {
           .error {
             margin: 0.5rem 0 0;
             display: none;
-            color: brown;
+            color: red;
           }
 
           .error.show {

@@ -40,7 +40,7 @@ export default class PlatformProducts extends React.Component {
           <div className="container-fluid">
             <div className="row">
               <div className="col-12">
-                <h1>Our wholesale products</h1>
+                <h1>Current retail space for rent</h1>
                 <PlatformProductsList
                   list={this.props.products}
                   platform={this.props.platform}

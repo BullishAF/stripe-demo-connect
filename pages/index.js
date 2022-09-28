@@ -15,15 +15,17 @@ class Home extends React.Component {
         <div className="home">
           <div className="container">
             <div className="text">
-              <h1>Manage your coffee roastery with ease.</h1>
+              <h1>Manage listings and payouts easily thru Snapshops.</h1>
               <h2>
-                Build your online business. Roastery helps coffee roasters build
-                their online presence and reach more buyers.
-              </h2>
+                Create your host location profile to start listing on Snapshops and generate revenue from your empty retail space. 
+                </h2>
               <Link href="/signup">
-                <a className="btn btn-primary">Start today</a>
+                <a className="btn btn-primary">Get started today</a>
               </Link>
             </div>
+          </div>
+          <div class="container">
+          <img src="progress.png" alt="progress" />
           </div>
 
           <StripeBanner />
@@ -33,7 +35,7 @@ class Home extends React.Component {
             display: flex;
             height: 100%;
             align-items: center;
-            padding-bottom: 30%;
+            padding-bottom: 25%;
           }
 
           h1 {
@@ -58,6 +60,12 @@ class Home extends React.Component {
             width: 100%;
             border: 0;
           }
+          
+          img {
+            height: 300px;
+            width: 400px;
+          }
+
         `}</style>
       </Layout>
     );

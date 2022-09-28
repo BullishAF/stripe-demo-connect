@@ -37,7 +37,7 @@ export default class PlatformThankYou extends React.Component {
               <div className="text-wrap">
                 <div className="text">
                   <h3>
-                    Thank you. <br /> Your order is confirmed.
+                    Thank you. <br /> Your booking is confirmed.
                   </h3>
                 </div>
               </div>

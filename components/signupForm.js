@@ -54,7 +54,7 @@ class SignupForm extends Component {
               type="text"
               id="platformName"
               name="platformName"
-              placeholder="Coffee roastery name"
+              placeholder="Host location name"
               value={this.state.platformName}
               onChange={this.handleChange}
               required
@@ -138,7 +138,7 @@ class SignupForm extends Component {
           .error {
             margin: 0.5rem 0 0;
             display: none;
-            color: brown;
+            color: red;
           }
           .error.show {
             display: block;
